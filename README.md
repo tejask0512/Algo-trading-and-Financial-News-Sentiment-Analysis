@@ -42,10 +42,9 @@ This project integrates algorithmic trading strategies with financial news senti
    pip install -r requirements.txt
    ```
 
-4. Set up API keys in `.env` file:
+4. Set up API keys and Tokens in `.env` file:
    ```env
-   TRADING_API_KEY=your_tradingview_api_key
-   NEWS_API_KEY=your_news_api_key
+   HuggingFace_token=your_hugging_face_token
    ```
 
 5. Run the application:
