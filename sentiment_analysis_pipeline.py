@@ -14,7 +14,7 @@ DATA_DIR = config.DATA_DIR
 
 MODEL_PATH = os.environ.get('MODEL_PATH', None)  # Set if using a custom model
 USE_CUSTOM_MODEL = os.environ.get('USE_CUSTOM_MODEL', 'false').lower() == 'true'
-HUGGING_FACE_TOKEN = config.HUGGING_FACE_TOKEN
+HUGGING_FACE_TOKEN = os.environ.get('hugging_face_token')
 
 # Ensure directories exist
 #os.makedirs(DATA_DIR, exist_ok=True)
