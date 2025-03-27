@@ -52,6 +52,11 @@ This project integrates algorithmic trading strategies with financial news senti
    python main.py
    ```
 
+6. Change the Path in 'config.py' and 'scraper.py' file:
+   ```bash
+   Data_DIR=''
+   ```
+
 ## Usage
 - Access the web application at `http://localhost:8000`
 - Monitor live BTC/USDT price trends
