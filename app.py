@@ -14,7 +14,7 @@ from functools import wraps
 app = Flask(__name__, template_folder="templates", static_folder="static")
 
 # Secret key for session management
-app.secret_key = "Greez@1336"
+app.secret_key = "Tejas@0514"
 
 # Absolute paths to scripts and data
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
